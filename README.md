@@ -20,3 +20,27 @@ Note that 'tribes' was used for clarity in code during extraction, however other
 Land data from Tindale http://archives.samuseum.sa.gov.au/tindaletribes/
 postcode data from Matthew Proctor https://www.matthewproctor.com/australian_postcodes
 distance calc from martinstoeckli https://stackoverflow.com/a/10054282
+
+
+** WordCloud Generator
+Using wordcloud2.js
+Demo page at https://whose.country
+
+index.php + MySQL DB with two tables
+
+CREATE TABLE inputCount (
+    nam varchar(40),
+    lat FLOAT(24),
+    lon FLOAT(24),
+    cnt INT(255)
+);
+
+CREATE TABLE postcode (
+    nam varchar(40),
+    code INT(255)
+);
+
+Populate with data from postcode2landname.csv
+
+Future potential improvements:
+styling, conference session id, cleanup data
