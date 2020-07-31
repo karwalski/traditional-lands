@@ -16,3 +16,7 @@ Description of Tindale's map data by South Australian Museum - http://archives.s
 The information on this catalogue is reproduced from NB Tindale's Aboriginal Tribes of Australia (1974). Please be aware that much of the data relating to Aboriginal language group distribution and definition has undergone revision since 1974. Please note also that this catalogue represents Tindale's attempt to depict Aboriginal tribal distribution at the time of European contact."
 
 Note that 'tribes' was used for clarity in code during extraction, however otherwise referred to as lands.
+
+Land data from Tindale http://archives.samuseum.sa.gov.au/tindaletribes/
+postcode data from Matthew Proctor https://www.matthewproctor.com/australian_postcodes
+distance calc from martinstoeckli https://stackoverflow.com/a/10054282
